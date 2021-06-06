@@ -1,0 +1,129 @@
+body{
+    background-image: url('achievee.jpg');
+    background-repeat:no-repeat ;
+    background-size: 100%;
+   }
+    
+    .navbar::before{ content: "" ;
+        background-color: black;
+        position: absolute;
+        height: 100% ;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    
+    
+    
+    .navbar{display: flex;
+        
+    position: sticky;
+    top:0px;}
+    ul{display: flex ;}
+.navbar ul li{ 
+list-style: none;
+font-size: 1.5em}
+
+
+
+.navbar ul li a{display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    border-radius: 22px;
+    color: white
+    
+    }
+.navbar ul li a:hover{color: black;
+    background-color: white;
+    
+    
+}
+#achievements{
+    
+    background-color: black;
+    border-radius: 22px;
+}
+.table{ border: 2px solid rgb(5, 5, 5);
+border-radius: 22px;
+padding-left: 200px;
+padding-top: 70px;
+padding-bottom: 70px;
+;
+}
+
+.container{display: flex;
+    justify-content: center; 
+  
+}
+
+.box1{
+     
+        width: 20%; 
+        height: 250px;
+        
+        
+    background-image: url('Screenshot\ \(298\).png');
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+
+.box2{width: 20%;
+background-image: url('Screenshot\ \(299\).png');
+background-repeat: no-repeat;
+background-size: 100%;
+height: 250px;
+}
+    .box3{width:  20%;
+        background-image: url('Screenshot\ \(300\).png');
+background-repeat: no-repeat;
+background-size: 100%;
+height: 250px;
+
+           }
+           
+.cer{
+    margin-top:20px;
+    margin-bottom:20px;
+    padding-left:40%;
+    font-size: 25px;
+    font-weight: bolder;
+   
+    color:rgba(31, 7, 7, 0.534);
+}
+
+    
+    
+    
+    
+    
+           .box{ background-color: rgba(250, 250, 250, 0.753);
+        padding-left: 50px;
+        padding-right:50px;
+       
+       
+        
+        margin: auto;
+        border-radius: 20px;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family:cursive;
+        font-weight: bolder;
+        margin-bottom: 40px;
+       
+
+ }
+ .center{
+    background-color: black;
+    color: white;
+    font-style: italic;
+        font-size:15px;
+      padding-left: 40%;
+    }
+  
+
+
+
+
+

@@ -1,0 +1,133 @@
+body{margin:0;
+  background-color: rgb(255, 71, 157);
+}
+ 
+ .navbar::before{ content: "" ;
+     background-color: black;
+     position: absolute;
+     height: 100% ;
+     width: 100%;
+     z-index: -1;
+     opacity: 0.4;
+ }
+ 
+ 
+ 
+ .navbar{display: flex;
+     
+ position: sticky;
+ top:0px;}
+ ul{display: flex ;}
+.navbar ul li{ 
+list-style: none;
+font-size: 1.5em}
+
+
+
+.navbar ul li a{display: block;
+ padding: 3px 22px;
+ text-decoration: none;
+ border-radius: 22px;
+ color: white
+ 
+ }
+.navbar ul li a:hover{color: black;
+ background-color: white;
+ 
+ 
+}
+#aboutme{
+ 
+ background-color: black;
+ border-radius: 22px;
+}
+.center{
+    background-color: black;
+    color: white;
+    font-style: italic;
+        font-size:15px;
+      padding-left: 40%;
+    }
+
+
+
+.black{
+  background-color: black;
+  color: red;
+  border-radius: 22px;
+  border: 2px solid black;
+  padding-left: 45%;
+  font-size:20px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.present{
+  font-size:20px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+.cont{display: flex;}
+
+.box5{
+  border: 3px solid rgb(49, 47, 47);
+  border-radius: 25px;
+ 
+}
+
+.present{
+  width: 55%;
+  margin-left:20px;}
+.bgimg{
+    width:25%;
+    margin-left:150px;
+    margin-right:50px;
+}
+.bgimg img:hover{
+width:450px;
+height:500px;
+
+  
+}
+.block{display: block;}
+
+
+.present{
+  background-color:rgb(209, 208, 208);
+  border-radius: 25px;
+  padding: 20px;
+}
+.heading{
+  color: rgb(160, 2, 2);
+  font-size:35px;
+  background-color: rgb(226, 114, 114);
+  padding-left:20px;
+  font-weight:bolder;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  
+  
+}
+.heading1{
+  padding-left: 40%;
+  color: rgb(160, 2, 2);
+  font-size:40px;
+  background-color: rgb(226, 114, 114);
+  font-weight:bolder;
+  font-style: italic;
+  font-family:'Times New Roman', Times, serif;
+  
+}
+h3{
+  padding-left: 20px;
+  background-color: rgb(226, 114, 114);
+  font-style: inherit;
+  font-weight: bold;
+  font-family:'Arial Narrow Bold', sans-serif;
+}
+.present p{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.bgimg{
+  background-color: rgb(255, 71, 157);
+  border-color: rgb(255, 71, 157);
+  border-radius: 25px;
+}

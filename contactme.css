@@ -1,0 +1,110 @@
+.center{
+    background-color: black;
+    color: white;
+    font-style: italic;
+        font-size:15px;
+      padding-left: 40%;
+    }
+    body{margin:0;
+      
+      background-image: url('contact.jpeg');
+      background-repeat: no-repeat;
+      background-size: 1200px;
+      background-position-x:100% ;
+    }
+     
+     .navbar::before{ content: "" ;
+         background-color: black;
+         position: absolute;
+         height: 100% ;
+         width: 100%;
+         z-index: -1;
+         opacity: 0.4;
+     }
+     
+     
+     
+     .navbar{display: flex;
+         
+     position: sticky;
+     top:0px;}
+     ul{display: flex ;}
+    .navbar ul li{ 
+    list-style: none;
+    font-size: 1.5em}
+    
+    
+    
+    .navbar ul li a{display: block;
+     padding: 3px 22px;
+     text-decoration: none;
+     border-radius: 22px;
+     color: white
+     
+     }
+    .navbar ul li a:hover{color: black;
+     background-color: white;
+     
+     
+    }
+    #contactme{
+     
+     background-color: black;
+     border-radius: 22px;
+    }
+    .form{
+      border-radius: 22px;
+      border: 2px solid black ;
+      background-color: rgb(194, 192, 192);
+      margin-left: 150px;
+    margin-right: 1050px;
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      ;
+  }
+  #first{
+    margin:10px;
+  }
+  #last{
+    margin:10px;
+  }
+  #myemail{
+    margin-top:10px;
+    margin-left:23px;
+
+  }
+  #phone{
+    margin-top:15px;
+    margin-left:5px;
+    margin-bottom:15px;
+  }
+  #review{
+
+    margin-top:20px;
+    margin-bottom:20px;
+    
+  }
+
+  .submit{
+    border-radius: 20px;
+    padding-left: 50px;
+  }
+
+ .me{
+   display: flex;
+ }
+ .b{
+   padding: 5px;
+ }
+ .a{
+   font-size: 30px;
+   font-family:cursive,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bolder;
+   padding-left: 20px;}
+ .e{
+   font-size: 25px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding-left: 20px;
+ }
+ .me{padding-left: 20px;}
